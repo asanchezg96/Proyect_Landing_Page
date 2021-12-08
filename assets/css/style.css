@@ -1,3 +1,10 @@
+body{
+    margin:0;
+}
+
+ul{
+    list-style-type: none;
+}
 .container-header, .container-footer{
     background-color: #1F2937;
     display: flex;
@@ -13,16 +20,21 @@
 /*Nav header*/
 .nav-header{
     display: flex; 
+    justify-content: space-between;
+    align-content: space-between;
 }
-.nav-header .links-header{
-    color: #E5E7EB;
-    font-size: 18px;
-    flex: 1 1 70%;
-}
+
 .nav-header .logo{
     color: #F9FAF8;
     font-size: 24px;
-    flex: 1 1 30%;
+    flex: 1 1 10%;
+}
+
+.nav-header .links-header{
+    color: #E5E7EB;
+    font-size: 18px;
+    flex: 1 1 1%;
+    align-content: flex-end;
 }
 
 
