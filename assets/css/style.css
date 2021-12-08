@@ -7,4 +7,15 @@
     background-color: #E5E7EB;
     display: flex;
     flex-direction: column;
+    
+}
+
+/*Nav header*/
+.logo{
+    color: #F9FAF8;
+    font-size: 24px;
+}
+.links-header{
+    color: #E5E7EB;
+    font-size: 18px;
 }
