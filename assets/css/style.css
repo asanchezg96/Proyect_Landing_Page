@@ -76,10 +76,12 @@ a{
 .text-title-sub-content{
     font-size: 48px;
     font-weight: bold;
+    padding-bottom: 10px;
 }
 
 .text-information-sub-content{
     font-size: 24px;
+    padding-bottom: 10px;
 }
 .button-header{
     background-color: #3882f6;
