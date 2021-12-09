@@ -102,6 +102,7 @@ a{
     padding-bottom: 10px;
     padding-right: 10px;
 }
+
 .button-header{
     background-color: #3882f6;
     border: 0;
@@ -116,8 +117,29 @@ a{
 
 /*Contenedor de contenido*/
 .content-sec1{
-    padding-top: 20px;
-
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    padding-right: 200px;
+    padding-left: 200px;
+}
+.title-con-sec1{
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bold;
+    align-self: center;
+}
+.content-section1{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.element1, .element2, .element3, .element4{
+    border: 5px solid #3882f6;
+    width: 200px;
+    height: 200px;
+    border-radius: 3px;
 }
 
 .content-sec2{
