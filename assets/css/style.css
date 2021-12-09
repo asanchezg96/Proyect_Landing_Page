@@ -38,9 +38,6 @@ a{
     justify-content: center;
     padding: 100px;
 }
-.sub-content{
-    margin-right: 50px;
-}
 
 /*Nav*/
 .logo-placeholder-img{
@@ -66,20 +63,12 @@ a{
 }
 
 /*Subcontent header*/
-.subcontent-header{
+
+.sub-content-header{
     display: flex;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    color: #F9FAF8;
-    width: auto;
-}
-
-
-
-.placeholder-img logo{
-    background-color: gray;
-    flex: 1 1 50%;
-  
+    flex-direction: column;
+    flex-basis: 400px;
+    margin-right: 20px;
 }
 
 .text-title-sub-content{
@@ -105,6 +94,11 @@ a{
     color: #F9FAF8;
     width: 115px;
     height: 30px;
+}
+
+.placeholder-img img{
+    width: 450px;
+    height: 350px;
 }
 
 /*Contenedor de contenido*/
