@@ -19,7 +19,6 @@ a{
     padding-top: 15px;
     padding-right:200px ;
     padding-left: 200px;
-    padding-bottom: 100px;
 }
 .container-footer{
     padding: 100px;
@@ -46,9 +45,6 @@ a{
     font-weight: bold;
     flex: 1 1 10%;
 }
-.logo {
-    font-style: ;
-}
 
 .nav-header .list-element{
     color: #E5E7EB;
@@ -61,5 +57,15 @@ a{
     
 }
 
+/*Subcontent header*/
+.subcontent-header{
+    display: flex;
+    align-content: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color: #F9FAF8;
+}
 
-
+h1{
+    font-size: 48;
+}
