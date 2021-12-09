@@ -1,74 +1,68 @@
 *{
-   min-width: 20px;
    margin: 0;
    padding: 0;
    box-sizing: border-box;
 }
-
+img {
+    width: 100%;
+    height: auto;
+}
 a{
    text-decoration: none;
    color: #E5E7EB;
    font-size: 18px; 
 }
-/*Contenedores header, footer*/
-.container-header, .container-footer{
-    background-color: #1F2937;
+/*Contenedores*/
+.container-main{
     display: flex;
     flex-direction: column;
-
+}
+.nav-header, .container-header, .container-content, .container-footer{
+    padding-top: 0px;
+    padding-right:100px ;
+    padding-left: 100px;
 }
 
-.container-header{
-    padding-top: 15px;
-    padding-right:200px ;
-    padding-left: 200px;
-
-}
-.container-content{
-    background-color: #E5E7EB;
-    padding-top: 0;
-    padding-bottom:80px;
-    padding-right:200px ;
-    padding-left: 200px;
-    display: flex;
-    flex-direction: column;
-    gap: 200px;
-    
-}
-.container-footer{
-    padding-top: 0;
-    padding-right:200px ;
-    padding-left: 200px;
-    width: auto;
-
+.nav-header, .container-header, .container-footer{
+ background-color: #1F2937;
+ color: #E5E7EB;
 }
 
-/*Nav header*/
 .nav-header{
     display: flex;
     justify-content: space-between; 
     align-items: center;
-    width: auto;
+}
+.container-header{
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
+.sub-content{
+    margin-right: 50px;
 }
 
-.nav-header .logo{
-    color: #F9FAF8;
-    font-size: 24px;
-    font-weight: bold;
-    flex: 1 1 10%;
-    width: auto;
+/*Nav*/
+.logo-placeholder-img{
+    width: 80px;
+    height: 80px;
 }
-
-.nav-header .list-element{
+.logo-img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    
+    border: 3px solid #F9FAF8;
+}
+.list-element{
     color: #E5E7EB;
     font-size: 18px;
     display: flex;
     list-style-type: none;
     margin: 0;
     padding: 0;
+    padding-left: 300px;
     gap: 16px;
-    width: auto;
-    
 }
 
 /*Subcontent header*/
@@ -80,14 +74,12 @@ a{
     width: auto;
 }
 
-.sub-content{
-    flex: 1 1 50%;
-}
 
-.placeholder-img{
+
+.placeholder-img logo{
     background-color: gray;
     flex: 1 1 50%;
-    padding: 100px;
+  
 }
 
 .text-title-sub-content{
